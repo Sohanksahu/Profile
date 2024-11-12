@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohan Kumar Sahu - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Sohan Kumar Sahu</h1>
+        <p>Aspiring Data Engineer & Software Developer</p>
+        <div class="contact-info">
+            <a href="mailto:sohansahu1484@gmail.com">Email</a> | 
+            <a href="http://linkedin.com/in/sohan-k-sahu-0a82a721b" target="_blank">LinkedIn</a> |
+            <span>Phone: 7735338859</span>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Aspiring data engineer and software developer with experience in data analysis, visualization, and backend development. I am passionate about creating impactful data solutions.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>KIIT University (2020 – 2024)</strong> - Bachelor of Technology (CSE), CGPA: 9.45</li>
+            <li><strong>St. Vincent Convent Sr. Sec. School (2019 – 2020)</strong> - Intermediate ISC, 91%</li>
+            <li><strong>St. Vincent Convent Sr. Sec. School (2017 – 2018)</strong> - High School ICSE, 85%</li>
+        </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Bain Capability Networks (Jan 2024 – July 2024)</strong></li>
+            <p>Role: Analyst Intern - Developed Tableau dashboards and used Alteryx for analytics, improving supply chain management efficiency.</p>
+            <li><strong>DRDO (May 2023 – Jun 2023)</strong></li>
+            <p>Role: Software Developer Intern - Created "NetBot" for network fault detection using Python, Subprocess, and Networkx libraries.</p>
+            <li><strong>Celebal (Jun 2023 – Aug 2023)</strong></li>
+            <p>Role: Data Engineer - Built scalable ETL pipelines using Python, Pandas, and PySpark for data processing.</p>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Cricket Team Analytics:</strong> Built a dashboard using Power BI and Python to analyze team performance.</li>
+            <li><strong>YouTube Control through Hand Gestures:</strong> Created a gesture recognition system using Python, OpenCV, and TensorFlow.</li>
+            <li><strong>Chatbot Application:</strong> Developed "NetBot" for network fault detection using HTML, CSS, JavaScript, Flask, and Python.</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Languages:</strong> Python, SQL, C++, Java, C</p>
+        <p><strong>Software:</strong> Power BI, Tableau, MS-Excel, MySQL, Alteryx</p>
+        <p><strong>Techniques:</strong> DSA, OOPS, Machine Learning, Data Analysis, Visualization, Supply Chain Management</p>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2>Achievements & Certifications</h2>
+        <ul>
+            <li>Event Coordinator, NIIT</li>
+            <li>CHAT GPT (Udemy), Tableau (Udemy), Alteryx (Udemy)</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Sohan Kumar Sahu</p>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
